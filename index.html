@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our">Our Package</a></li>
+            <li><a href="#call">Call Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="header">
+                <h1>Your Trusted Travel Agent's</h1>
+                <p>Your happines is our happines</p>
+            </div>
+            <div class="container">
+                <div class="containerimage">
+                    <div class="image">
+                        <img src="img/1.jpg" alt="Gambar">
+                        <img src="img/2.jpg" alt="Gambar">
+                        <p class="satu">"Liburan jadi menyenangkan bersama Travel agentku."</p>
+                    </div>
+                    <div class="image2">
+                        <img src="img/user.png" class="icon">
+                        <div class="content">
+                            <h3>Florence Hughes</h3>
+                            <p>Ibu rumah tangga, 28</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data anda kami terima</p>
+                    <form id="contactForm" action="#" method="POST" onsubmit="return validateForm()">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">What are you interested in?</label>
+                            <select id="subject" name="subject" required>
+                            <option value="">Select option</option>
+                            <option value="Bali">Bali</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Singapore">Singapore</option>
+                        </select>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contain">
+                <h2>Use this space to provide users with more information about your offer. Consider it a follow-up to your headlineand explain the benefits of your service orproduct</h2>
+                <div>
+                    <h3>1</h3>
+                    <p>Your first feature, written in the form of a benefit statement.</p>
+                </div>
+                <div>
+                    <h3>2</h3>
+                    <p>Your second feature, written in the form of a benefit statement.</p>
+                </div>
+                <div>
+                    <h3>3</h3>
+                    <p>Your third feature, written in the form of a benefit statement.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="our">
+            <div class="travel">
+                <h1>Our Package</h1>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Bali</h2>
+                    <p>
+                        Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik
+                    </p>
+                </div>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Japan</h2>
+                    <p>
+                        Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik
+                    </p>
+                </div>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Singapore</h2>
+                    <p>
+                        This desciption supports and extends the bullet point above.
+                    </p>
+                </div>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Bandung</h2>
+                    <p>
+                        This desciption supports and extends the bullet point above.
+                    </p>
+                </div>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Surabaya</h2>
+                    <p>
+                        This desciption supports and extends the bullet point above.
+                    </p>
+                </div>
+                <div class="travel-destination">
+                    <img src="https://via.placeholder.com/300x200" alt="Travel Image" class="travel-image" />
+                    <h2 class="travel-title">Singapore</h2>
+                    <p>
+                        This desciption supports and extends the bullet point above.
+                    </p>
+                </div>
+        </section>
+        <section id="call">
+            <div class="close">
+                <h1>Your Closing Argument Headline</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia placeat magni totam culpa laborum, odio ipsa eligendi? Temporibus accusamus, qui perferendis debitis voluptas iusto fugiat molestias, nesciunt nulla, odit saepe!</p>
+                <button>CALL TO ACTION</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
